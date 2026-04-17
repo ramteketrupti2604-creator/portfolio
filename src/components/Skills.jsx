@@ -4,14 +4,13 @@ import { motion } from "framer-motion";
 const skillsData = [
   { name: "C / C++", value: 80, color: "bg-blue-400" },
   { name: "JavaScript", value: 70, color: "bg-blue-400" },
-  { name: "Python", value: 60, color: "bg-blue-400" },
-
+  
   { name: "HTML / CSS", value: 85, color: "bg-purple-400" },
-  { name: "Tailwind", value: 75, color: "bg-purple-400" },
   { name: "React", value: 70, color: "bg-purple-400" },
 
   { name: "Git & GitHub", value: 75, color: "bg-pink-400" },
   { name: "VS Code", value: 85, color: "bg-pink-400" },
+  { name: "vercel", value: 60, color: "bg-blue-400" },
 ];
 
 const Skills = () => {

@@ -4,8 +4,9 @@ import { FaProjectDiagram, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 // Images
 import connecthub from "../assets/connecthub.jpg";
 import movie from "../assets/movie-search.jpg";
-import ecommerce from "../assets/ecommerce.jpg";
-import todo from "../assets/todo.jpg";
+import Ecommerce from "../assets/Ecommerce.jpg";
+import todo1 from "../assets/todo1.jpg";
+import netflix from "../assets/netflix.jpg"; // ⭐ NEW
 
 // Project Data
 const projects = [
@@ -29,7 +30,7 @@ const projects = [
   },
   {
     title: "E-commerce Product Filter",
-    image: ecommerce,
+    image: Ecommerce,
     description:
       "Developed a dynamic e-commerce product filter and search application using React and Node.js.",
     github:
@@ -38,11 +39,22 @@ const projects = [
   },
   {
     title: "To-Do App",
-    image: todo,
+    image: todo1,
     description:
       "A simple task manager with add, delete, and update functionality using JavaScript.",
     github: "https://github.com/your-repo",
     live: "#",
+  },
+
+  // ⭐ NETFLIX CLONE PROJECT
+  {
+    title: "Netflix Clone1 (React + TMDB API)",
+    image: netflix,
+    description:
+      "Built a Netflix clone using React, TMDB API, React Router and modern UI design with responsive layout and movie search functionality.",
+    github:
+      "https://github.com/ramteketrupti2604-creator/netflix-clone1",
+    live: "https://netflix-clone1-6t51.vercel.app/",
   },
 ];
 
@@ -52,13 +64,13 @@ const Projects = () => {
       id="projects"
       className="min-h-screen w-full bg-gradient-to-br from-black via-gray-900 to-black text-white px-6 py-20 relative overflow-hidden"
     >
-      {/* Glow */}
+      {/* Glow Effects */}
       <div className="absolute top-10 left-10 w-72 h-72 bg-blue-500/20 blur-3xl rounded-full"></div>
       <div className="absolute bottom-10 right-10 w-72 h-72 bg-purple-500/20 blur-3xl rounded-full"></div>
 
       <div className="max-w-6xl mx-auto w-full relative z-10">
 
-        {/* 🔥 SECTION BADGE (NEW ADDED) */}
+        {/* SECTION BADGE */}
         <div className="flex justify-center mb-8">
           <div className="flex items-center gap-2 px-5 py-2 
           bg-white/10 backdrop-blur-md border border-white/20 rounded-full shadow-lg">
@@ -67,13 +79,6 @@ const Projects = () => {
               PROJECTS SECTION
             </span>
           </div>
-        </div>
-
-        {/* HEADING */}
-        <div className="flex items-center justify-center gap-3 mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold">
-            <span className="text-blue-400"></span>
-          </h2>
         </div>
 
         {/* GRID */}
@@ -91,7 +96,7 @@ const Projects = () => {
               viewport={{ once: true }}
             >
               
-              {/* Image */}
+              {/* IMAGE */}
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
@@ -101,7 +106,7 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
               </div>
 
-              {/* Content */}
+              {/* CONTENT */}
               <div className="p-6 flex flex-col flex-grow">
 
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400 transition">
@@ -112,7 +117,7 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                {/* Buttons */}
+                {/* BUTTONS */}
                 <div className="flex gap-4 mt-auto">
 
                   <a
