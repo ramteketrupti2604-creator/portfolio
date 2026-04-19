@@ -41,7 +41,7 @@ const Home = () => {
         />
 
         <h1 className="text-4xl mt-6 font-bold">
-           <span className="text-blue-400">Hi, I'mTrupti Ramteke</span> 👋
+           <span className="text-blue-400">Hi, I'm Trupti Ramteke</span> 👋
         </h1>
 
         <h2 className="text-xl mt-2 text-gray-300">

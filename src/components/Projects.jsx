@@ -4,9 +4,9 @@ import { FaProjectDiagram, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 // Images
 import connecthub from "../assets/connecthub.jpg";
 import movie from "../assets/movie-search.jpg";
-import Ecommerce from "../assets/Ecommerce.jpg";
-import todo1 from "../assets/todo1.jpg";
-import netflix from "../assets/netflix.jpg"; // ⭐ NEW
+import ecommerce from "../assets/ecommerce.jpg";
+import studentdashboard from "../assets/studentdashboard.jpg";
+import netflix from "../assets/Netflix.jpg"; // ⭐ NEW
 
 // Project Data
 const projects = [
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     title: "E-commerce Product Filter",
-    image: Ecommerce,
+    image: ecommerce,
     description:
       "Developed a dynamic e-commerce product filter and search application using React and Node.js.",
     github:
@@ -38,13 +38,13 @@ const projects = [
     live: "https://react-ecommerce-filter-search-qbex.vercel.app/",
   },
   {
-    title: "To-Do App",
-    image: todo1,
-    description:
-      "A simple task manager with add, delete, and update functionality using JavaScript.",
-    github: "https://github.com/your-repo",
-    live: "#",
-  },
+  title: "Student Dashboard (React)",
+  image: studentdashboard,
+  description:
+    "Built a responsive Student Management Dashboard using React to streamline data organization. Implemented dynamic UI components for managing student records, real-time data visualization, and a clean, user-centric interface.",
+  github: "https://github.com/ramteketrupti2604-creator/student-dashboard",
+  live: "https://student-dashboard-beige-gamma.vercel.app/",
+},
 
   // ⭐ NETFLIX CLONE PROJECT
   {
